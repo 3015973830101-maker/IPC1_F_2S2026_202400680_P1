@@ -1,12 +1,12 @@
-# Centro de Rescate Animal - Proyecto IPC1 2S2026
+Centro de Rescate Animal - Proyecto IPC1 2S2026
 
 Proyecto Java Swing construido manualmente con código, usando arreglos estáticos y matrices.
 
-## Requisitos
+Requisitos
 - Java 17 o superior
 - Visual Studio Code con Extension Pack for Java
 
-## Ejecutar en VS Code
+Ejecutar en VS Code
 1. Abra esta carpeta completa en VS Code.
 2. Abra `src/Main.java`.
 3. Presione **Run Java**.
@@ -17,17 +17,17 @@ javac -d out src/Main.java src/modelo/*.java src/servicio/*.java src/persistenci
 java -cp out Main
 ```
 
-## Usuarios iniciales
+Usuarios iniciales
 Se crean automáticamente en `datos/usuarios.csv`:
 - Administrador: `admin` / `admin123`
 - Auxiliar: `auxiliar` / `aux123`
 
 Puede cambiarlos directamente en el archivo `datos/usuarios.csv`.
 
-## Datos del estudiante
+Datos del estudiante
 Edite el método `panelEstudiante()` en `src/interfaz/VentanaPrincipal.java` y sustituya los textos de nombre, carné y sección.
 
-## Persistencia
+Persistencia
 Los datos se guardan en:
 - `datos/animales.csv`
 - `datos/adoptantes.csv`
@@ -36,7 +36,7 @@ Los datos se guardan en:
 - `datos/bitacora.csv`
 - `datos/usuarios.csv`
 
-## Reportes
+Reportes
 Los HTML se generan dentro de `reportes/` e incluyen fecha y hora en el nombre.
 
 ## Importante
