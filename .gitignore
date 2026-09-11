@@ -1,0 +1,13 @@
+# Archivos compilados
+out/
+*.class
+
+# Configuración local de VS Code
+.vscode/
+
+# Datos locales de prueba
+datos/*.csv
+
+# Archivos temporales
+*.log
+*.tmp
