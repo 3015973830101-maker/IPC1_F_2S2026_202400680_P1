@@ -39,5 +39,5 @@ Los datos se guardan en:
 Reportes
 Los HTML se generan dentro de `reportes/` e incluyen fecha y hora en el nombre.
 
-## Importante
+Importante
 La lógica principal no utiliza `ArrayList`, `LinkedList`, `HashMap`, `List`, `Queue`, `Stack` ni `Vector`.
